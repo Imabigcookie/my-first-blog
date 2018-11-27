@@ -5,3 +5,7 @@ myvenv
 db.sqlite3
 /static
 .DS_Store
+<<<<<<< HEAD
+=======
+secret_key.txt
+>>>>>>> 2ea9cf15246ae8e7ad60c35f930519679045041d

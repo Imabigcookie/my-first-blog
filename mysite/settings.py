@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Django settings for mysite project.
 
@@ -12,10 +13,14 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 
+=======
+import os
+>>>>>>> 2ea9cf15246ae8e7ad60c35f930519679045041d
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+<<<<<<< HEAD
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
@@ -23,12 +28,21 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ek0@=2txatr)nvfosj3ft+22m(pjwd@zqf=fxj3b&*rqgqn4sw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+=======
+
+>>>>>>> 2ea9cf15246ae8e7ad60c35f930519679045041d
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'Dredisback.pythonanywhere.com']
 
 
+<<<<<<< HEAD
 # Application definition
+=======
+with open('mysite/secret_key.txt') as f:
+    SECRET_KEY = f.read().strip()
+
+>>>>>>> 2ea9cf15246ae8e7ad60c35f930519679045041d
 
 INSTALLED_APPS = [
     'django.contrib.admin',
