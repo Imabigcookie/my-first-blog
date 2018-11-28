@@ -11,7 +11,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'dredisback.pythonanywhere.com']
 
 
 
-SECRET_KEY = ek0@=2txatr)nvfosj3ft+22m(pjwd@zqf=fxj3b&*rqgqn4sw
+SECRET_KEY = 'ek0@=2txatr)nvfosj3ft+22m(pjwd@zqf=fxj3b&*rqgqn4sw'
 
 
 INSTALLED_APPS = [
