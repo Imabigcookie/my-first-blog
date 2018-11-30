@@ -1,7 +1,10 @@
 from django.contrib import admin
-from django.urls import re_path, include
+from django.urls import re_path, path, include
+from django.contrib.auth import views
 
 urlpatterns = [
-    re_path(r'^admin/', admin.site.urls),
-    re_path(r'', include('blog.urls')),
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls')),
+    path('accounts/login/', views.login, name='login'),
+    path('accounts/logout/', views.logout, name='logout', kwargs={'next_page': '/'}),
 ]
